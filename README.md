@@ -72,6 +72,7 @@ If you need to support browsers that do not natively support the CSS Paint API, 
         CSS.paintWorklet.addModule('https://your-cdn-url/sparklines.js');
     }
     ```
+    
 For more information on browser support for the CSS Paint API, you can check the compatibility on [can I use](https://caniuse.com/css-paint-api).
 
 ## Demo
