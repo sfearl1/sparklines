@@ -1,0 +1,27 @@
+{
+  "name": "sparklines.css",
+  "version": "1.0.0",
+  "description": "A CSS Houdini Paint Worklet for authoring small sparkline charts directly in your stylesheets.",
+  "main": "dist/sparklines.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sfearl1/sparklines.git"
+  },
+  "keywords": [
+    "CSS",
+    "Houdini",
+    "Paint",
+    "Worklet",
+    "Sparklines",
+    "Charts"
+  ],
+  "author": "Scott Earl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sfearl1/sparklines/issues"
+  },
+  "homepage": "https://github.com/sfearl1/sparklines#readme"
+}
