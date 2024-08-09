@@ -5,7 +5,7 @@ node_modules/
 *.log
 
 # Compiled output
-dist/
+# dist/
 
 # System files
 .DS_Store
