@@ -1,7 +1,5 @@
 # sparklines.css
 
-A small CSS Paint Worklet for authoring customizable sparkline charts directly in your CSS.
-
 ![Sparklines.css Preview](assets/sparklines.png)
 
 ## Installation
