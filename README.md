@@ -1,6 +1,6 @@
 # sparklines.css
 
-![Sparklines.css Preview](https://raw.githubusercontent.com/sfearl1/sparklines/main/assets/sparklines.png)
+![Sparklines.css Preview](https://github.com/sfearl1/sfearl1.github.io/blob/0d7649089acbe388f4f76684899885625c9c01a2/paint-worklets/sparklines/assets/sparklines.png)
 
 ## Installation
 
@@ -15,9 +15,13 @@ npm install sparklines.css
 2. Register the worklet:
 
 ```javascript
-if ('paintWorklet' in CSS) {
-    CSS.paintWorklet.addModule('path/to/sparklines.js');
-}
+(async () => {
+    if (!CSS["paintWorklet"]) {
+        await import("https://unpkg.com/css-paint-polyfill");
+    } else {
+        CSS.paintWorklet.addModule('https://unpkg.com/sparklines.css@1.0.5/dist/sparklines.min.js');
+    }
+})();
 ```
 
 3. Customize it in your CSS:
@@ -69,7 +73,7 @@ If you need to support browsers that do not natively support the CSS Paint API, 
 if (!CSS["paintWorklet"]) {
     await import("https://unpkg.com/css-paint-polyfill");
 } else {
-    CSS.paintWorklet.addModule('https://your-cdn-url/sparklines.js');
+    CSS.paintWorklet.addModule('https://unpkg.com/sparklines.css@1.0.5/dist/sparklines.min.js');
 }
 ```
     
