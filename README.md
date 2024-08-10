@@ -1,6 +1,6 @@
 # sparklines.css
 
-![Sparklines.css Preview](https://raw.githubusercontent.com/sfearl1/sparklines.css/main/assets/sparklines.png)
+![Sparklines.css Preview](https://raw.githubusercontent.com/sfearl1/sparklines/main/assets/sparklines.png)
 
 ## Installation
 
