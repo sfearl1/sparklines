@@ -77,7 +77,7 @@ For more information on browser support for the CSS Paint API, you can check the
 
 ## Demo
 
-Live demo [here](https://sfearl1.github.io/sparklines).
+Live demo [here](https://sfearl1.github.io/paint-worklets/sparklines/index.html).
 
 ## Contributing
 
