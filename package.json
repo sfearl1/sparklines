@@ -1,6 +1,6 @@
 {
   "name": "sparklines.css",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "A CSS Houdini Paint Worklet for authoring small sparkline charts directly in your stylesheets.",
   "main": "dist/sparklines.js",
   "scripts": {
